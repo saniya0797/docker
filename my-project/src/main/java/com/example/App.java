@@ -15,10 +15,12 @@ public class App {
     }
 
     @PostConstruct
+
     public void init()
     {
         Logger log = LoggerFactory.getLogger(App.class);
         log.info("Java app started");
+        log.info("hello");
     }
 
     public String getStatus() {
