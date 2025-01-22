@@ -5,9 +5,9 @@ ame: Java CI with Gradle
 
 on:
   push:
-    branches: [ master ]
+    branches: [ new ]
   pull_request:
-    branches: [ master ]
+    branches: [ new ]
 
 jobs:
   build-java:
